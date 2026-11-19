@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "com.opusmatic.launcherfolders",
+        "Name": "Application Launcher (with Folders)",
+        "Description": "KDE's Application Launcher with folders in Favourites",
+        "Icon": "start-here-kde",
+        "Category": "Application Launchers",
+        "License": "GPL-2.0+",
+        "Version": "1.0.0",
+        "Authors": [
+            { "Name": "Based on KDE Kickoff (Martin Graesslin, Mikel Johnson, Noah Davis, et al.)" }
+        ],
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [ "org.kde.plasma.launchermenu" ]
+}
